@@ -5,14 +5,15 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Patient extends Model
+class Poli extends model
 {
     use HasFactory;
-    protected $guarded = [
-        'no',
-        'name',
-        'age',
-        'gender',    
-        'address',
+
+    protected $fillable = [
+        'kode_polis',
+        'nama',
+        'biaya',
+        'deskripsi',
+        'is_aktif',
     ];
 }

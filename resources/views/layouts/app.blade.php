@@ -45,8 +45,22 @@
                                     </li>
                                 </ul>
                             </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Data poli
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="/polis">Lihat Data poli</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/polis/create">Tambah pasien</a>
+                                    </li>
+                                </ul>
+                            </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/daftar">Pendaftaran Pasien</a>
+                                <a class="nav-link" href="/daftar">Pendaftaran pasien</a>
                             </li>
                         @endauth
                     </ul>

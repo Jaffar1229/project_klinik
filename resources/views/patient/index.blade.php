@@ -1,4 +1,3 @@
-<div>
 @extends('layouts.app', ['title' => 'Data Pasien'])
 @section('content')
     <div class="container">
